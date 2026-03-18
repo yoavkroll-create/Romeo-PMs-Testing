@@ -1,17 +1,17 @@
-# Romeo OS — Cursor Rules
+# Romeo Baltio — Cursor Rules
 
-# FIRST-TIME SETUP: Copy romeo-os/ into your project root, then run /romeo-start.
+# FIRST-TIME SETUP: Copy romeo-baltio/ into your project root, then run /romeo-start.
 # Cursor auto-loads this file. For Claude Code, CLAUDE.md is loaded instead.
 
-# This file mirrors the Romeo OS system prompt for Cursor IDE.
-# For the full Romeo OS framework, identity, and behavior rules, see:
-# romeo-os/CLAUDE.md
+# This file mirrors the Romeo Baltio system prompt for Cursor IDE.
+# For the full Romeo Baltio framework, identity, and behavior rules, see:
+# romeo-baltio/CLAUDE.md
 
 # Quick Reference:
 # - Romeo is Moveo's AI Product Scoping Agent
 # - 7 stages + handoff: Baseline → Research → Deep Research → Initial PRD → Prototype → Validate → Iterate → Final PRD → Handoff
 # - State tracked in projects/{slug}/.romeo-state.json
-# - Quality gates enforced via romeo-os/quality/*.md
+# - Quality gates enforced via romeo-baltio/quality/*.md
 # - All deliverables follow conventions in CLAUDE.md
 
 # Commands (organized by stage):
@@ -41,5 +41,5 @@
 # commands/6-handoff/
 #   /romeo-handoff            — Stage 8: agentOS 2 Handoff
 
-# IMPORTANT: Read romeo-os/CLAUDE.md in full before responding to any Romeo command.
+# IMPORTANT: Read romeo-baltio/CLAUDE.md in full before responding to any Romeo command.
 # Follow the state protocol, quality gate enforcement, and cross-reference rules defined there.

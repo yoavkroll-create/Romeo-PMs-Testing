@@ -295,8 +295,8 @@ Present all 5 deliverables. Key questions:
 ### Step 5: Iterate and Finalize
 
 Incorporate feedback. When approved:
-1. Run DoD from `romeo-os/quality/prototype-dod.md`.
-2. Run readiness check from `romeo-os/quality/readiness-check.md` using the `prototype` criteria configuration.
+1. Run DoD from `romeo-baltio/quality/prototype-dod.md`.
+2. Run readiness check from `romeo-baltio/quality/readiness-check.md` using the `prototype` criteria configuration.
 3. If READY: update `.romeo-state.json` and guide: "Prototype specs complete! Build the MVP prototype first, then run `/romeo-validate-prototype`."
 4. If NOT_READY: present missing items and work with PM to address them, then rerun.
 

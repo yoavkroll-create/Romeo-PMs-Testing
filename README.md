@@ -1,22 +1,30 @@
-# Romeo OS
+# Romeo Baltio
 
-**Romeo OS** is Moveo's AI-powered product scoping framework. It guides Product Managers from a raw product idea through a structured, multi-stage process — Baseline → Research → Initial PRD → Prototype → Validation → Final PRD — producing a development-ready PRD and agentOS 2 handoff files. Every stage enforces quality gates (Definition of Done + Readiness Checks) and tracks state so you can pause and resume at any point.
+**Romeo Baltio** is Moveo's AI-powered product scoping framework. It guides Product Managers from a raw product idea through a structured, multi-stage process — Baseline → Research → Initial PRD → Prototype → Validation → Final PRD — producing a development-ready PRD and agentOS 2 handoff files. Every stage enforces quality gates (Definition of Done + Readiness Checks) and tracks state so you can pause and resume at any point.
 
 ---
 
 ## Prerequisites
 
 - **Claude Code** (auto-loads `CLAUDE.md`) or **Cursor** (auto-loads `.cursorrules`)
-- A terminal or IDE with access to the `romeo-os/` folder
+- A terminal or IDE with access to the `romeo-baltio/` folder
 
 ---
 
 ## Quick Start
 
-1. Copy the `romeo-os/` folder into your project root.
-2. Open the project in Claude Code or Cursor.
-3. Run `/romeo-start` to initialize a new scoping project.
-4. Follow Romeo's guidance through each stage.
+From your target project's root directory, run:
+
+```bash
+git clone https://github.com/anthropics/Romeo-PMs-Testing.git /tmp/romeo-baltio-src && \
+cp -r /tmp/romeo-baltio-src/romeo-baltio . && \
+rm -rf /tmp/romeo-baltio-src
+```
+
+Then:
+1. Open the project in Claude Code or Cursor.
+2. Run `/romeo-start` to initialize a new scoping project.
+3. Follow Romeo's guidance through each stage.
 
 ---
 
@@ -41,7 +49,7 @@
 ## File Structure
 
 ```
-romeo-os/
+romeo-baltio/
 ├── CLAUDE.md                              # Master system prompt (identity, framework, rules)
 ├── .cursorrules                           # Cursor IDE mirror of CLAUDE.md
 ├── README.md                              # This file

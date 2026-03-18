@@ -1,6 +1,6 @@
 # Readiness Check Engine
 
-A reusable, stage-agnostic validation system that determines whether a Romeo OS stage is ready to progress.
+A reusable, stage-agnostic validation system that determines whether a Romeo Baltio stage is ready to progress.
 
 ## Overview
 
@@ -66,7 +66,7 @@ Optional (non-required) criteria that fail produce warnings but do not block pro
 When Romeo reaches the end of a stage (after DoD evaluation), execute this procedure:
 
 ### 1. Load Stage Criteria
-Read the stage's DoD file from `romeo-os/quality/{stage}-dod.md` and map each criterion to the readiness check format.
+Read the stage's DoD file from `romeo-baltio/quality/{stage}-dod.md` and map each criterion to the readiness check format.
 
 ### 2. Evaluate Each Criterion
 For each criterion:
@@ -211,7 +211,7 @@ Save the readiness result to `.romeo-state.json`:
 
 To add readiness criteria for a new stage:
 
-1. Create a DoD file in `romeo-os/quality/{stage}-dod.md` with criteria.
+1. Create a DoD file in `romeo-baltio/quality/{stage}-dod.md` with criteria.
 2. Add a criteria configuration section in this file following the pattern above.
 3. The readiness engine will automatically use the new criteria when the stage is evaluated.
 

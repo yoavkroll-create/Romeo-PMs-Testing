@@ -11,7 +11,16 @@
       "Read(//tmp/**)",
       "Bash(pdftotext \"/Users/yoav.kroll/Downloads/PRD – Romeo Operations Platform.pdf\" /tmp/romeo-prd.txt)",
       "Bash(pdftotext \"/Users/yoav.kroll/Downloads/Prototype prompt Example.pdf\" /tmp/prototype-prompt.txt)",
-      "Bash(pdftotext \"/Users/yoav.kroll/Downloads/פרומט לאבבל.pdf\" /tmp/lovable-prompt.txt)"
+      "Bash(pdftotext \"/Users/yoav.kroll/Downloads/פרומט לאבבל.pdf\" /tmp/lovable-prompt.txt)",
+      "Bash(grep -r \"create-agent\\\\|npx\\\\|curl.*sh\\\\|installation\" /Users/yoav.kroll/Desktop/Projects/Romeo-PMS-Test/Romeo-PMs-Testing --include=*.md --include=*.json --include=*.sh)",
+      "Bash(find /Users/yoav.kroll/Desktop/Projects -name *agent* -o -name *agentOS*)",
+      "Bash(find '/Users/yoav.kroll/Desktop/Projects/Cherryclipz agentOS' -maxdepth 2 -type f \\\\\\(-name README* -o -name *.md \\\\\\))",
+      "Bash(find /Users/yoav.kroll/Desktop/Projects -name project-update.sh -o -name setup*.sh -o -name *install*.sh)",
+      "Bash(grep -r \"copy\\\\|clone\\\\|install\\\\|setup\" '/Users/yoav.kroll/Desktop/Projects/Cherryclipz agentOS' --include=*.md --include=*.yml)",
+      "Bash(find '/Users/yoav.kroll/Desktop/Projects/Test Chair Repo' -maxdepth 3 -name *.sh -o -name README* -o -name SETUP*)",
+      "Bash(grep -r \"Copy the\\\\|copy.*folder\\\\|clone.*agent\\\\|npm.*agent\\\\|git.*agent\" /Users/yoav.kroll/Desktop/Projects --include=*.md)",
+      "Bash(find /Users/yoav.kroll/Desktop/Projects -type f -name *.md -path *README* -o -name *.md -path *SETUP*)",
+      "Bash(ls -d */)"
     ]
   }
 }

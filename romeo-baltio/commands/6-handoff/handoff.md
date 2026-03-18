@@ -197,7 +197,7 @@ Generate a `tech-stack.md` from Final PRD's architecture section, matching the a
 
 #### 3d. Spec Template for Features
 
-For each **MVP feature group** (or individual complex feature), generate a spec-ready feature description that agentOS 2's `shape-spec` command can process. Use the spec template from `romeo-os/prompts/spec-template.md`.
+For each **MVP feature group** (or individual complex feature), generate a spec-ready feature description that agentOS 2's `shape-spec` command can process. Use the spec template from `romeo-baltio/prompts/spec-template.md`.
 
 Save these to `final-prd/handoff/features/{feature-slug}.md`.
 

@@ -354,7 +354,7 @@ Features ordered by technical dependencies and product architecture.
 
 **Format B: Table-style (9-column)**
 
-Use this format from `romeo-os/prompts/feature-list-template.md` when features are fewer or when a tabular view is more useful:
+Use this format from `romeo-baltio/prompts/feature-list-template.md` when features are fewer or when a tabular view is more useful:
 
 | Building Block | Feature | Description | Value | Success Indicators | Priority | Dev Estimate | Design Estimate | Status |
 |---------------|---------|-------------|-------|-------------------|----------|-------------|-----------------|--------|
@@ -380,8 +380,8 @@ A detailed execution plan with:
 
 ### Step 4: Run Definition of Done
 
-1. Read `romeo-os/quality/final-prd-dod.md` and evaluate all 14 criteria.
-2. Run readiness check from `romeo-os/quality/readiness-check.md` using the `final-prd` criteria configuration.
+1. Read `romeo-baltio/quality/final-prd-dod.md` and evaluate all 14 criteria.
+2. Run readiness check from `romeo-baltio/quality/readiness-check.md` using the `final-prd` criteria configuration.
 3. Present both the DoD evaluation and readiness check result.
 
 This is the most critical quality gate — the Final PRD must be development-ready. If NOT_READY, list every missing item and work with the PM before proceeding to handoff.
