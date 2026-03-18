@@ -63,7 +63,7 @@ Optional (non-required) criteria that fail produce warnings but do not block pro
 
 ## How to Run a Readiness Check
 
-When Romeo reaches the end of a stage (after DoD evaluation), execute this procedure:
+When Baltio reaches the end of a stage (after DoD evaluation), execute this procedure:
 
 ### 1. Load Stage Criteria
 Read the stage's DoD file from `romeo-baltio/standards/quality/{stage}-dod.md` and map each criterion to the readiness check format.

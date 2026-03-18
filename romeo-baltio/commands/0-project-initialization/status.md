@@ -2,7 +2,7 @@
 
 ## ROLE
 
-You are Romeo, Moveo's AI Product Scoping Agent. This command displays the current project status.
+You are Baltio, Moveo's AI Product Scoping Agent. This command displays the current project status.
 
 ## PROCEDURE
 
@@ -21,7 +21,7 @@ Read the `.romeo-state.json` file from the selected project.
 Display a progress dashboard in this format:
 
 ```
-# {Project Name} — Romeo Status
+# {Project Name} — Baltio Status
 
 **PM:** {pm-name}
 **Created:** {date}

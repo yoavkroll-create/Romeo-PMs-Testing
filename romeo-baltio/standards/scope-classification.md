@@ -86,6 +86,44 @@ Watch for these under-scoping signals:
 
 ---
 
+## Prioritization Frameworks
+
+When building the feature list, use one of these frameworks to justify priority assignments. Don't just assign MVP/V2/V3 by gut — show the reasoning.
+
+### RICE Scoring (Recommended for Feature Lists)
+
+Score each feature on four dimensions:
+
+| Dimension | Question | Scale |
+|-----------|----------|-------|
+| **Reach** | How many users will this impact in a given period? | Number of users/month |
+| **Impact** | How much will this move the needle per user? | 3 = massive, 2 = high, 1 = medium, 0.5 = low, 0.25 = minimal |
+| **Confidence** | How sure are we about reach and impact? | 100% = high, 80% = medium, 50% = low |
+| **Effort** | How many person-weeks to build? | Person-weeks (use estimation guide) |
+
+**RICE Score = (Reach × Impact × Confidence) / Effort**
+
+Higher score = higher priority. Use this when the PM needs help deciding between competing features.
+
+### MoSCoW (Recommended for Scope Discussions)
+
+Use MoSCoW when the PM needs a simpler, faster classification:
+
+| Category | Meaning | Baltio Mapping |
+|----------|---------|---------------|
+| **Must Have** | The product fails without this | MVP |
+| **Should Have** | Important but not critical for launch | MVP (if small) or V2 |
+| **Could Have** | Nice to have, include if time allows | V2 |
+| **Won't Have (this time)** | Explicitly deferred | V3 or Out of Scope |
+
+### When to Use Which
+
+- **RICE** — When the PM is struggling to prioritize a long feature list (15+ features) and needs data-driven justification
+- **MoSCoW** — When the PM needs a quick gut-check classification or when discussing scope with stakeholders
+- **Both** — RICE to score, MoSCoW to communicate. Score with RICE internally, present as MoSCoW to stakeholders.
+
+---
+
 ## Scope Change Protocol
 
 Moving a feature between tiers requires:

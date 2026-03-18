@@ -130,6 +130,38 @@ projects/{project-slug}/
 
 ---
 
+## Section Data Sources (Inheritance Markers)
+
+Every section in a deliverable has a **data source** — where the content should come from. Use these markers when drafting to make the source explicit:
+
+| Marker | Meaning | Agent Behavior |
+|--------|---------|---------------|
+| `[FROM: {prior-deliverable}]` | Content should be pulled from a prior stage deliverable | Auto-populate from the cited deliverable, then confirm with PM |
+| `[FROM: business-context]` | Content should be pulled from the business context captured during `/romeo-start` | Auto-populate, confirm with PM |
+| `[PM INPUT]` | Content requires new input from the PM | Ask using atomic interviewing |
+| `[AGENT RESEARCH]` | Content requires Baltio to research (competitors, market data, tech feasibility) | Research using web search, present findings for PM validation |
+| `[SYNTHESIZE: {source1} + {source2}]` | Content should combine and enrich data from multiple prior sources | Pull from both sources, synthesize (don't just copy), confirm with PM |
+
+**Example usage in a draft:**
+
+```markdown
+## The Problem
+[SYNTHESIZE: business-context + research-report]
+{Baltio synthesizes the problem from business context and strengthens it with research evidence}
+
+## Competitive Landscape
+[AGENT RESEARCH]
+{Baltio researches competitors and presents findings for validation}
+
+## Success Metrics
+[FROM: business-context]
+{Auto-populated from /romeo-start, confirmed with PM}
+```
+
+These markers are **internal process markers** — they appear in working drafts but are removed from the final approved deliverable. The approved file contains only clean, professional content.
+
+---
+
 ## Template Integrity
 
 The `romeo-baltio/standards/templates/` directory contains READ-ONLY reference templates. **Never modify or overwrite template files.** They are structural references — deliverables are written to `projects/{project-slug}/`, not to the templates folder.

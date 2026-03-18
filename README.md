@@ -24,7 +24,7 @@ rm -rf /tmp/romeo-baltio-src
 Then:
 1. Open the project in Claude Code or Cursor.
 2. Run `/romeo-start` to initialize a new scoping project.
-3. Follow Romeo's guidance through each stage.
+3. Follow Baltio's guidance through each stage.
 
 ---
 
@@ -74,7 +74,7 @@ romeo-baltio/
 │   └── 6-handoff/
 │       └── handoff.md                     # /romeo-handoff
 └── standards/
-    ├── system-prompt.md                   # Full Romeo identity, framework & rules
+    ├── system-prompt.md                   # Full Baltio identity, framework & rules
     ├── interaction-protocol.md            # Iteration loop, challenging the PM
     ├── file-writing-format.md             # Metadata headers, markdown structure
     ├── naming-conventions.md              # kebab-case, slugs, folder structure
@@ -110,7 +110,7 @@ If your project hands off to agentOS 2, configure the path during `/romeo-start`
 }
 ```
 
-The handoff stage (`/romeo-handoff`) reads this path from state. If not set, Romeo will ask for it at handoff time.
+The handoff stage (`/romeo-handoff`) reads this path from state. If not set, Baltio will ask for it at handoff time.
 
 ---
 

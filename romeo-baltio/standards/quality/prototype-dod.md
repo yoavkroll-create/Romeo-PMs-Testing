@@ -18,6 +18,6 @@
 ## Evaluation
 
 - All 10 criteria must pass for the stage to be marked complete.
-- The prototype stage is about the specification — the actual build happens outside Romeo.
+- The prototype stage is about the specification — the actual build happens outside Baltio.
 - Validation (`/romeo-validate-prototype`) evaluates the built prototype, not just the spec.
 - MVP validation is required for stage progression. Future validation is optional.

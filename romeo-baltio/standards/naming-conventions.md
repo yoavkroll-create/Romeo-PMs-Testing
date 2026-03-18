@@ -63,6 +63,7 @@ projects/{project-slug}/
 
 | Stage | Deliverable | File Name |
 |-------|------------|-----------|
+| Initialization | Business Context | `business-context.md` |
 | Baseline | Baseline Spec | `baseline/baseline-spec.md` |
 | Baseline | Capability List | `baseline/capability-list.md` |
 | Baseline | Happy Flow | `baseline/happy-flow.md` |
