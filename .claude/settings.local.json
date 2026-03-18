@@ -20,7 +20,9 @@
       "Bash(find '/Users/yoav.kroll/Desktop/Projects/Test Chair Repo' -maxdepth 3 -name *.sh -o -name README* -o -name SETUP*)",
       "Bash(grep -r \"Copy the\\\\|copy.*folder\\\\|clone.*agent\\\\|npm.*agent\\\\|git.*agent\" /Users/yoav.kroll/Desktop/Projects --include=*.md)",
       "Bash(find /Users/yoav.kroll/Desktop/Projects -type f -name *.md -path *README* -o -name *.md -path *SETUP*)",
-      "Bash(ls -d */)"
+      "Bash(ls -d */)",
+      "Bash(mv romeo-baltio/quality/* romeo-baltio/standards/quality/)",
+      "Bash(mv romeo-baltio/prompts/* romeo-baltio/standards/templates/)"
     ]
   }
 }

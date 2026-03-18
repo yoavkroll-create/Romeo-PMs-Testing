@@ -34,7 +34,7 @@ Explain to the PM that Deep Research covers **8 landscapes**:
 
 ### Step 3: Generate Research Prompts
 
-For each landscape, generate **1–2 optimized research prompts** for external tools. Follow the format in `romeo-baltio/prompts/research-prompt-template.md`.
+For each landscape, generate **1–2 optimized research prompts** for external tools. Follow the format in `romeo-baltio/standards/templates/research-prompt-template.md`.
 
 Each prompt should:
 - Provide context about the product being researched

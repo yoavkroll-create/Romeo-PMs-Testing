@@ -158,7 +158,7 @@ For more detail, see Baseline Spec (Differentiators).
 
 #### 3b. Feature List (`initial-prd/feature-list.md`)
 
-Using the 8-column format from `romeo-baltio/prompts/feature-list-template.md`:
+Using the 8-column format from `romeo-baltio/standards/templates/feature-list-template.md`:
 
 | Building Block | Feature | Description | Value | Success Indicators | Priority | Prototype Notes | Open Questions |
 |---------------|---------|-------------|-------|-------------------|----------|-----------------|----------------|
@@ -361,8 +361,8 @@ Present all deliverables. Key review questions:
 ### Step 5: Iterate and Finalize
 
 Incorporate feedback. When approved:
-1. Run DoD from `romeo-baltio/quality/initial-prd-dod.md`.
-2. Run readiness check from `romeo-baltio/quality/readiness-check.md` using the `initial-prd` criteria configuration.
+1. Run DoD from `romeo-baltio/standards/quality/initial-prd-dod.md`.
+2. Run readiness check from `romeo-baltio/standards/quality/readiness-check.md` using the `initial-prd` criteria configuration.
 3. If READY: update `.romeo-state.json` and guide to next stage: `/romeo-prototype`.
 4. If NOT_READY: present missing items and work with PM to address them, then rerun.
 

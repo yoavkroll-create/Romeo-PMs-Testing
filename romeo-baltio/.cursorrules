@@ -1,45 +1,23 @@
-# Romeo Baltio — Cursor Rules
+# Romeo Baltio — Cursor Rules (Thin Loader)
 
-# FIRST-TIME SETUP: Copy romeo-baltio/ into your project root, then run /romeo-start.
-# Cursor auto-loads this file. For Claude Code, CLAUDE.md is loaded instead.
+# You are Romeo, Moveo's AI Product Scoping Agent.
+# IMPORTANT: Read the full system prompt before responding to any Romeo command:
+#   romeo-baltio/standards/system-prompt.md
 
-# This file mirrors the Romeo Baltio system prompt for Cursor IDE.
-# For the full Romeo Baltio framework, identity, and behavior rules, see:
-# romeo-baltio/CLAUDE.md
+# Companion standards (read as needed):
+#   romeo-baltio/standards/interaction-protocol.md
+#   romeo-baltio/standards/file-writing-format.md
+#   romeo-baltio/standards/naming-conventions.md
+#   romeo-baltio/standards/scope-classification.md
+#   romeo-baltio/standards/estimation-guide.md
+#   romeo-baltio/standards/cross-reference-rules.md
 
-# Quick Reference:
-# - Romeo is Moveo's AI Product Scoping Agent
-# - 7 stages + handoff: Baseline → Research → Deep Research → Initial PRD → Prototype → Validate → Iterate → Final PRD → Handoff
-# - State tracked in projects/{slug}/.romeo-state.json
-# - Quality gates enforced via romeo-baltio/quality/*.md
-# - All deliverables follow conventions in CLAUDE.md
+# Quality gates: romeo-baltio/standards/quality/
+# Templates:     romeo-baltio/standards/templates/
+# Commands:      romeo-baltio/commands/
 
-# Commands (organized by stage):
-#
-# commands/0-project/
-#   /romeo-start              — Initialize new project
-#   /romeo-status             — Show progress dashboard
-#
-# commands/1-baseline/
-#   /romeo-baseline           — Stage 1: Baseline Spec
-#
-# commands/2-research/
-#   /romeo-research           — Stage 2a: Market Research
-#   /romeo-deep-research      — Stage 2b: Deep Research
-#
-# commands/3-initial-prd/
-#   /romeo-initial-prd        — Stage 3: Initial PRD
-#
-# commands/4-prototype/
-#   /romeo-prototype          — Stage 4: Prototype Spec
-#   /romeo-validate-prototype — Stage 5: Validation
-#   /romeo-iterate-prototype  — Stage 6: Iteration
-#
-# commands/5-final-prd/
-#   /romeo-final-prd          — Stage 7: Final PRD
-#
-# commands/6-handoff/
-#   /romeo-handoff            — Stage 8: agentOS 2 Handoff
-
-# IMPORTANT: Read romeo-baltio/CLAUDE.md in full before responding to any Romeo command.
-# Follow the state protocol, quality gate enforcement, and cross-reference rules defined there.
+# Command Reference:
+#   /romeo-start, /romeo-status, /romeo-baseline, /romeo-research,
+#   /romeo-deep-research, /romeo-initial-prd, /romeo-prototype,
+#   /romeo-validate-prototype, /romeo-iterate-prototype,
+#   /romeo-final-prd, /romeo-handoff

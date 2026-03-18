@@ -147,7 +147,7 @@ Each question should be specific and answerable through research.
 
 #### 3e. Research Prompts (`baseline/research-prompts.md`)
 
-Ready-to-use prompts for external research tools (GPT Deep Research, Perplexity, Gemini). Follow the template in `romeo-baltio/prompts/research-prompt-template.md`.
+Ready-to-use prompts for external research tools (GPT Deep Research, Perplexity, Gemini). Follow the template in `romeo-baltio/standards/templates/research-prompt-template.md`.
 
 Generate **5–8 prompts**, each targeting a specific research area. Each prompt should include:
 - Context about the product
@@ -171,7 +171,7 @@ Incorporate PM feedback. Track changes. Repeat until the PM approves.
 ### Step 6: Run Definition of Done + Readiness Check
 
 **6a. DoD Evaluation:**
-Read `romeo-baltio/quality/baseline-dod.md` and evaluate all 10 criteria against the deliverables.
+Read `romeo-baltio/standards/quality/baseline-dod.md` and evaluate all 10 criteria against the deliverables.
 
 Present the evaluation:
 ```
@@ -187,7 +187,7 @@ Present the evaluation:
 If any items fail, work with the PM to fix them.
 
 **6b. Readiness Check:**
-After DoD passes, run the readiness check from `romeo-baltio/quality/readiness-check.md` using the `baseline` criteria configuration. Present the structured result:
+After DoD passes, run the readiness check from `romeo-baltio/standards/quality/readiness-check.md` using the `baseline` criteria configuration. Present the structured result:
 
 ```
 ## Readiness Check: Baseline

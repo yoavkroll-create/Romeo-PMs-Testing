@@ -50,8 +50,8 @@ Then:
 
 ```
 romeo-baltio/
-├── CLAUDE.md                              # Master system prompt (identity, framework, rules)
-├── .cursorrules                           # Cursor IDE mirror of CLAUDE.md
+├── CLAUDE.md                              # Thin loader → standards/system-prompt.md
+├── .cursorrules                           # Thin loader → standards/system-prompt.md
 ├── README.md                              # This file
 ├── .gitignore                             # Ignores .DS_Store and projects/
 ├── commands/
@@ -73,17 +73,25 @@ romeo-baltio/
 │   │   └── final-prd.md                   # /romeo-final-prd
 │   └── 6-handoff/
 │       └── handoff.md                     # /romeo-handoff
-├── prompts/
-│   ├── feature-list-template.md           # 8-column feature list template
-│   ├── research-prompt-template.md        # Research prompt template
-│   └── spec-template.md                   # agentOS 2 spec template
-└── quality/
-    ├── baseline-dod.md                    # Baseline Definition of Done
-    ├── research-dod.md                    # Research DoD
-    ├── initial-prd-dod.md                 # Initial PRD DoD
-    ├── prototype-dod.md                   # Prototype DoD
-    ├── final-prd-dod.md                   # Final PRD DoD
-    └── readiness-check.md                 # Reusable readiness check engine
+└── standards/
+    ├── system-prompt.md                   # Full Romeo identity, framework & rules
+    ├── interaction-protocol.md            # Iteration loop, challenging the PM
+    ├── file-writing-format.md             # Metadata headers, markdown structure
+    ├── naming-conventions.md              # kebab-case, slugs, folder structure
+    ├── scope-classification.md            # MVP/V2/V3/Out of Scope definitions
+    ├── estimation-guide.md                # T-shirt sizing XS–XL
+    ├── cross-reference-rules.md           # How stages cite prior stages
+    ├── quality/
+    │   ├── readiness-check.md             # Reusable readiness check engine
+    │   ├── baseline-dod.md                # Baseline Definition of Done
+    │   ├── research-dod.md                # Research DoD
+    │   ├── initial-prd-dod.md             # Initial PRD DoD
+    │   ├── prototype-dod.md               # Prototype DoD
+    │   └── final-prd-dod.md               # Final PRD DoD
+    └── templates/
+        ├── feature-list-template.md       # 8/9/10-column feature list formats
+        ├── research-prompt-template.md    # Research prompt template
+        └── spec-template.md              # agentOS 2 spec template
 ```
 
 ---

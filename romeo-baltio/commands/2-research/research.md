@@ -128,7 +128,7 @@ Present the report and ask:
 
 Incorporate feedback. When approved:
 1. Update `.romeo-state.json` — mark research as `completed`.
-2. Run DoD evaluation from `romeo-baltio/quality/research-dod.md`.
+2. Run DoD evaluation from `romeo-baltio/standards/quality/research-dod.md`.
 3. Guide PM to next stage: "Research complete! Consider running `/romeo-deep-research` for deeper coverage, or proceed to `/romeo-initial-prd`."
 
 ## QUALITY RULES
